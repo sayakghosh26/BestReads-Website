@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BestReads</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+  </head>
+
+  <body>
+    <div class="navbar">
+      <a href="index.html"><img src="images/logo.png" alt=""></a>
+
+      <div>
+        <ul id="list-nav">
+          <li><a class="active" href="order.html">Orders</a></li>
+          <li><a href="cart.html">
+                <div class="cart">
+                  <i class="bi bi-bag"></i>
+                  <div id="cartAmount" class="cartAmount">0</div>
+                </div>
+              </a>
+          </li>
+        </ul>
+      </div>
+
+      
+    </div>
+
+    <div class="shop" id="shop"></div>
+    
+  </body>
+
+  <script src="src/Data.js"></script>
+  <script src="src/main.js"></script>
+
+</html>
